@@ -20,3 +20,10 @@ iam_role_name   = "GLO-ROLE001-EC2"
 s3_access_level = "full"
 # Tags
 tag_environment = "Dev"
+
+##dynatrace env
+external_id = null
+role_name   = "GLO-ROLE001-DYNATRACEMONITORING"
+policy_name = "GLO-POL001-DYNATRACEPOL"
+# active_gate_account_id=
+# active_gate_role_name=
