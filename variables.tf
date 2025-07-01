@@ -129,3 +129,10 @@ variable "active_gate_role_name" {
   nullable    = true
   default     = null
 }
+
+variable "google_api_key" {
+  description = "Google place API key"
+  type        = string
+  nullable    = true
+  default     = null
+}

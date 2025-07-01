@@ -1,5 +1,5 @@
 # Providers config
-aws_region = "us-east-1"
+aws_region    = "us-east-1"
 aws_accessKey = null
 aws_secretKey = null
 # Network
@@ -27,3 +27,4 @@ role_name   = "GLO-ROLE001-DYNATRACEMONITORING"
 policy_name = "GLO-POL001-DYNATRACEPOL"
 # active_gate_account_id=
 # active_gate_role_name=
+google_api_key = null
