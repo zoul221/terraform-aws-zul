@@ -1,13 +1,10 @@
 # terraform-aws-zul
 A code repo for building AWS infra using terraform. <br />
 Resource that will be provision: <br />
-VPC <br />
-Subnet <br />
-Internet gateway <br />
-Route table <br />
-Security Group <br />
-EC2 <br />
-S3
+REST API → Lambda → Kinesis Data Stream → Kinesis Firehose → S3 <br/>
+
+Bucket in this example is use1-test-zul </br>
+change the bucket to any bucket name that is setup at your environment
 
 
 ## Prerequisite needed
